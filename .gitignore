@@ -1,0 +1,17 @@
+
+# .NET build files
+**/bin/
+**/obj/
+
+# Visual Studio and VS Code temporary files
+.vs/
+.vscode/
+
+# User-specific files
+*.user
+*.suo
+
+# Operating system files
+Thumbs.db
+.DS_Store
+

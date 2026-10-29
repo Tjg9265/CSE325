@@ -1,0 +1,7 @@
+SALES SUMMARY
+-------------
+february.csv: $525.75
+january.csv: $405.75
+march.csv: $401.25
+-------------
+TOTAL SALES: $1332.75
