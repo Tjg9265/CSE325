@@ -1,4 +1,4 @@
-# CSE 325 – Week 01 Assignment Notes
+﻿# CSE 325 â€“ Week 01 Assignment Notes
 
 ## 1. Pizza API Project
 
@@ -18,7 +18,7 @@ I added an additional pizza, BBQ Chicken, to the initial list in PizzaService.cs
 
 ### HTTP Request Testing
 
-**GET – Retrieve All Pizzas**
+**GET â€“ Retrieve All Pizzas**
 
 Request: `GET http://localhost:5283/pizzas`
 
@@ -31,9 +31,9 @@ Response:
 ]
 ```
 
-The API successfully returned all three seeded pizzas. The HTTP status code was not separately captured.
+The API successfully returned all three seeded pizzas. The HTTP response status was 200 OK.
 
-**POST – Create a Pizza**
+**POST â€“ Create a Pizza**
 
 Request: `POST http://localhost:5283/pizzas`
 
@@ -49,7 +49,7 @@ Response body:
 {"id":4,"name":"Pepperoni","isGlutenFree":false}
 ```
 
-**PUT – Update a Pizza**
+**PUT â€“ Update a Pizza**
 
 Request: `PUT http://localhost:5283/pizzas/4`
 
@@ -62,7 +62,7 @@ Response status: **204 No Content**
 
 Response body: Empty.
 
-**DELETE – Remove a Pizza**
+**DELETE â€“ Remove a Pizza**
 
 Request: `DELETE http://localhost:5283/pizzas/4`
 
@@ -70,7 +70,7 @@ Response status: **204 No Content**
 
 Response body: Empty.
 
-**GET – Verify Deletion**
+**GET â€“ Verify Deletion**
 
 Request: `GET http://localhost:5283/pizzas/4`
 
